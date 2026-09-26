@@ -9,8 +9,9 @@
 
 ## VS Code
 
-`vscode/themes/night-rose.jsonc` 是基于 **Dark Modern** 的「夜蔷薇」主题片段，包含工作台、语法高亮和语义高亮配色。
+- [`vscode/themes/dark-modern-current.jsonc`](vscode/themes/dark-modern-current.jsonc)：从当前本机 `settings.json` 提取的 Dark Modern 配色与字体快照（60 个界面配色键、8 条语法规则）。
+- [`vscode/themes/night-rose.jsonc`](vscode/themes/night-rose.jsonc)：为壁纸设计的「夜蔷薇」主题方案，包含工作台、语法和语义高亮配色。
 
-使用时，将文件中的三个颜色自定义对象合并到个人 `settings.json` 的同名设置项，并选用 `"workbench.colorTheme": "Dark Modern"`。不要直接用此片段覆盖整个 `settings.json`，以免丢失其他个人设置。
+两个文件是并列方案。使用时选择一套，将其中的主题与外观设置合并到个人 `settings.json`；不要直接覆盖整个文件，以免丢失其他个人设置。
 
 壁纸文件及 `background.fullscreen` 的本机图片路径不在仓库中。扩展自绘界面可能不会采用全部 VS Code 主题颜色。
