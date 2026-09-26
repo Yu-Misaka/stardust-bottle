@@ -1,0 +1,130 @@
+// Current local Dark Modern appearance snapshot.
+// Theme and font settings only; no credentials or local wallpaper path.
+{
+  "workbench.colorTheme": "Dark Modern",
+  "editor.fontFamily": "'Cascadia Code NF', monospace",
+  "editor.fontSize": 15,
+  "editor.lineHeight": 27,
+  "workbench.colorCustomizations": {
+    "[Dark Modern]": {
+      "panel.background": "#000000",
+      "sideBar.background": "#000000",
+      "sideBar.foreground": "#ffffffc0",
+      "welcomePage.background": "#000000",
+      "activityBar.background": "#000000",
+      "editor.background": "#000000",
+      "editor.foreground": "#ffffff",
+      "editorGroupHeader.tabsBackground": "#000000",
+      "editorGroupHeader.border": "#000000",
+      "editorWidget.background": "#000000",
+      "editorGroupHeader.tabsBorder": "#000000",
+      "statusBar.background": "#000000",
+      "statusBar.border": "#000000",
+      "statusBarItem.remoteBackground": "#000000",
+      "titleBar.activeBackground": "#000000",
+      "titleBar.inactiveBackground": "#000000",
+      "titleBar.border": "#000000",
+      "tab.hoverBackground": "#000000",
+      "tab.activeBackground": "#000000",
+      "tab.inactiveBackground": "#000000",
+      "tab.unfocusedActiveBackground": "#000000",
+      "tab.border": "#000000",
+      "tab.activeBorderTop": "#7160E8",
+      "tab.unfocusedHoverBackground": "#000000",
+      "tab.activeBorder": "#000000",
+      "tab.unfocusedActiveBorder": "#000000",
+      "tab.activeModifiedBorder": "#000000",
+      "activityBarBadge.background": "#7160E8",
+      "activityBar.activeBorder": "#7160E8",
+      "activityBar.activeBackground": "#00000000",
+      "activityBar.border": "#00000000",
+      "list.errorForeground": "#ff552f",
+      "list.warningForeground": "#9991ce",
+      "gitDecoration.modifiedResourceForeground": "#9991ce",
+      "gitDecoration.untrackedResourceForeground": "#e8cdebca",
+      "sideBarSectionHeader.background": "#000000",
+      "breadcrumb.background": "#000000",
+      "menu.background": "#000000",
+      "menu.foreground": "#ffffff",
+      "menu.separatorBackground": "#545454",
+      "focusBorder": "#7160E8",
+      "button.background": "#7160E8",
+      "button.hoverBackground": "#6251D4",
+      "menu.selectionBackground": "#352A65",
+      "inputOption.activeBorder": "#7160E8",
+      "inputOption.activeBackground": "#7160E855",
+      "progressBar.background": "#7160E8",
+      "panelTitle.activeBorder": "#7160E8",
+      "terminal.tab.activeBorder": "#7160E8",
+      "tab.selectedBorderTop": "#7160E8",
+      "textLink.foreground": "#A99BFF",
+      "textLink.activeForeground": "#C6BEFF",
+      "chat.slashCommandBackground": "#7160E844",
+      "chat.slashCommandForeground": "#B7ABFF",
+      "agentsChatInput.focusBorder": "#7160E8",
+      "editor.selectionHighlightBackground": "#7160E833",
+      "list.activeSelectionBackground": "#33265E",
+      "list.inactiveSelectionBackground": "#281F45",
+      "list.focusBackground": "#33265E",
+      "list.hoverBackground": "#1F1932"
+    }
+  },
+  "editor.tokenColorCustomizations": {
+    "[Dark Modern]": {
+      "textMateRules": [
+        {
+          "scope": "invalid.illegal.lean4",
+          "settings": {
+            "foreground": "#ff0084"
+          }
+        },
+        {
+          "scope": "constant.numeric",
+          "settings": {
+            "foreground": "#c4e88d"
+          }
+        },
+        {
+          "scope": "keyword.other",
+          "settings": {
+            "foreground": "#f88bea",
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": "storage.type",
+          "settings": {
+            "foreground": "#F78C6C"
+          }
+        },
+        {
+          "scope": "variable",
+          "settings": {
+            "foreground": "#89DDFF",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "storage.modifier",
+          "settings": {
+            "foreground": "#f88bea"
+          }
+        },
+        {
+          "scope": "entity.name.function",
+          "settings": {
+            "foreground": "#82aaff",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": "comment",
+          "settings": {
+            "foreground": "#408f00",
+            "fontStyle": "italic"
+          }
+        }
+      ]
+    }
+  }
+}
