@@ -1,0 +1,5 @@
+// Merge this member into the existing background.fullscreen object.
+// Keep its local images path and other options in your user settings.
+{
+  "opacity": 0.24
+}

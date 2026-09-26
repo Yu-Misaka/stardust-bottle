@@ -1,6 +1,10 @@
-// Dark Modern · 夜蔷薇。将三个 [Dark Modern] 块分别替换到 settings.json 的同名块。
-// 壁纸维持现有 background.fullscreen.opacity = 0.2；本片段不含图片路径。
+// Dark Modern · 夜蔷薇。将主题、字体和三个 [Dark Modern] 块合并到 settings.json。
+// 字体沿用旧版；壁纸透明度见 ../background/night-rose-fullscreen.jsonc。
 {
+  "workbench.colorTheme": "Dark Modern",
+  "editor.fontFamily": "'Cascadia Code NF', monospace",
+  "editor.fontSize": 15,
+  "editor.lineHeight": 27,
   "workbench.colorCustomizations": {
     "[Dark Modern]": {
       // 基础：黑曜石、墨紫灰、柔白
@@ -21,12 +25,12 @@
       "textSeparator.foreground": "#393242",
 
       // 标题栏、活动栏、侧栏与底栏
-      "titleBar.activeBackground": "#090A12",
+      "titleBar.activeBackground": "#03030A",
       "titleBar.activeForeground": "#DAD4E1",
-      "titleBar.inactiveBackground": "#090A12",
+      "titleBar.inactiveBackground": "#03030A",
       "titleBar.inactiveForeground": "#8A8494",
       "titleBar.border": "#292533",
-      "activityBar.background": "#080910",
+      "activityBar.background": "#010107",
       "activityBar.foreground": "#E5DCEF",
       "activityBar.inactiveForeground": "#8C8599",
       "activityBar.border": "#292533",
@@ -37,18 +41,18 @@
       "activityBarBadge.foreground": "#FFFFFF",
       "modernActivityBarItem.activeBackground": "#A98BEF22",
       "modernActivityBarItem.hoverBackground": "#A98BEF11",
-      "sideBar.background": "#0C0B16",
+      "sideBar.background": "#04030B",
       "sideBar.foreground": "#DDD6E5",
       "sideBar.border": "#292533",
       "sideBarTitle.foreground": "#E6E0EB",
-      "sideBarSectionHeader.background": "#12101D",
+      "sideBarSectionHeader.background": "#090712",
       "sideBarSectionHeader.foreground": "#CCC4D5",
       "sideBarSectionHeader.border": "#292533",
-      "statusBar.background": "#0B0A14",
+      "statusBar.background": "#03030A",
       "statusBar.foreground": "#C8C1D0",
       "statusBar.border": "#292533",
-      "statusBar.inactiveBackground": "#0A0912",
-      "statusBar.noFolderBackground": "#0B0A14",
+      "statusBar.inactiveBackground": "#020208",
+      "statusBar.noFolderBackground": "#03030A",
       "statusBar.debuggingBackground": "#6749AB",
       "statusBar.debuggingForeground": "#FFFFFF",
       "statusBar.focusBorder": "#A98BEF",
@@ -58,25 +62,25 @@
       "statusBarItem.prominentBackground": "#382749",
       "statusBarItem.remoteBackground": "#6749AB",
       "statusBarItem.remoteForeground": "#FFFFFF",
-      "commandCenter.background": "#11101A",
+      "commandCenter.background": "#0B0913",
       "commandCenter.foreground": "#E6E0EB",
       "commandCenter.border": "#3B3449",
       "commandCenter.activeBorder": "#A98BEF",
 
       // 编辑器与标签：轻量层级，不让框架盖过壁纸
-      "editor.background": "#090A12",
+      "editor.background": "#000000",
       "editor.foreground": "#E6E0EB",
       "editorGroup.border": "#292533",
-      "editorGroupHeader.tabsBackground": "#0D0C17",
+      "editorGroupHeader.tabsBackground": "#05040D",
       "editorGroupHeader.tabsBorder": "#292533",
       "editorGroupHeader.border": "#292533",
-      "tab.activeBackground": "#14111E",
+      "tab.activeBackground": "#0A0813",
       "tab.activeForeground": "#F0EAF4",
-      "tab.inactiveBackground": "#0D0C17",
+      "tab.inactiveBackground": "#05040D",
       "tab.inactiveForeground": "#9E96AB",
-      "tab.hoverBackground": "#211A2E",
-      "tab.unfocusedActiveBackground": "#11101A",
-      "tab.unfocusedHoverBackground": "#191522",
+      "tab.hoverBackground": "#171020",
+      "tab.unfocusedActiveBackground": "#080711",
+      "tab.unfocusedHoverBackground": "#100C18",
       "tab.border": "#292533",
       "tab.activeBorderTop": "#A98BEF",
       "tab.selectedBorderTop": "#A98BEF",
@@ -84,11 +88,11 @@
       "tab.unfocusedActiveBorder": "#292533",
       "tab.unfocusedActiveBorderTop": "#625574",
       "tab.unfocusedActiveModifiedBorder": "#8D799D",
-      "breadcrumb.background": "#090A12",
+      "breadcrumb.background": "#000000",
       "breadcrumb.foreground": "#9D96AA",
       "breadcrumb.activeSelectionForeground": "#E7DAF5",
       "editorCursor.foreground": "#C7B2FF",
-      "editorLineNumber.foreground": "#756E80",
+      "editorLineNumber.foreground": "#8E879A",
       "editorLineNumber.activeForeground": "#D4C7E9",
       "editor.selectionBackground": "#64458D88",
       "editor.inactiveSelectionBackground": "#49355977",
@@ -140,8 +144,8 @@
       "editorWidget.background": "#191522",
       "editorWidget.foreground": "#E6E0EB",
       "editorWidget.border": "#3A3246",
-      "peekViewEditor.background": "#11101A",
-      "peekViewResult.background": "#17131F",
+      "peekViewEditor.background": "#090712",
+      "peekViewResult.background": "#100C18",
       "peekViewResult.selectionBackground": "#3A2B58",
       "peekViewResult.selectionForeground": "#F5EFFB",
       "menu.background": "#17131F",
@@ -177,7 +181,7 @@
       "progressBar.background": "#A98BEF",
 
       // 面板、通知、设置与欢迎页
-      "panel.background": "#0C0B16",
+      "panel.background": "#04030B",
       "panel.border": "#292533",
       "panelTitle.activeBorder": "#A98BEF",
       "panelTitle.activeForeground": "#EDE5F3",
@@ -196,8 +200,8 @@
       "settings.modifiedItemIndicator": "#A98BEF",
       "settings.dropdownBackground": "#1C1727",
       "settings.dropdownBorder": "#40364D",
-      "welcomePage.background": "#090A12",
-      "welcomePage.tileBackground": "#17131F",
+      "welcomePage.background": "#000000",
+      "welcomePage.tileBackground": "#100C18",
       "welcomePage.progress.foreground": "#A98BEF",
       "extensionButton.prominentBackground": "#7352C1",
       "extensionButton.prominentForeground": "#FFFFFF",
@@ -232,7 +236,7 @@
       "merge.incomingHeaderBackground": "#548C7466",
 
       // 终端：界面紫色；ANSI 保留红绿黄及壁纸的青色
-      "terminal.background": "#0B0B15",
+      "terminal.background": "#000000",
       "terminal.foreground": "#E1DBE9",
       "terminalCursor.foreground": "#C7B2FF",
       "terminal.selectionBackground": "#64458D88",
@@ -264,10 +268,10 @@
   "editor.tokenColorCustomizations": {
     "[Dark Modern]": {
       "textMateRules": [
-        { "scope": "comment", "settings": { "foreground": "#8DA492", "fontStyle": "italic" } },
-        { "scope": "keyword", "settings": { "foreground": "#C7A0E6" } },
-        { "scope": "keyword.control", "settings": { "foreground": "#D3A5E9" } },
-        { "scope": "keyword.other", "settings": { "foreground": "#C7A0E6" } },
+        { "scope": "comment", "settings": { "foreground": "#9BB09F", "fontStyle": "italic" } },
+        { "scope": "keyword", "settings": { "foreground": "#C7A0E6", "fontStyle": "italic" } },
+        { "scope": "keyword.control", "settings": { "foreground": "#D3A5E9", "fontStyle": "italic" } },
+        { "scope": "keyword.other", "settings": { "foreground": "#C7A0E6", "fontStyle": "italic" } },
         { "scope": "storage.modifier", "settings": { "foreground": "#C7A0E6" } },
         { "scope": "storage.type", "settings": { "foreground": "#E7B58A" } },
         { "scope": ["entity.name.type", "entity.name.class", "support.type", "support.class"], "settings": { "foreground": "#E7B58A" } },
@@ -289,6 +293,7 @@
     "[Dark Modern]": {
       "enabled": true,
       "rules": {
+        "keyword": { "foreground": "#C7A0E6", "italic": true },
         "type": "#E7B58A",
         "class": "#E7B58A",
         "interface": "#E7B58A",
